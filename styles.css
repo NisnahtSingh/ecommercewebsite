@@ -1,0 +1,61 @@
+header {
+    background-color:#d5c5fe ;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: rgb(0, 0, 0);
+    margin: 0 1em;
+    text-decoration: none;
+    width: 700;
+}
+
+main {
+    padding: 2em;
+}
+
+#cart-container {
+    margin-top: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#cart-summary {
+    text-align: right;
+}
+
+#checkout-button {
+    background-color: #007bff;
+}
+
+#checkout-button:hover {
+    background-color: #0056b3;
+}
